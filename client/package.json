@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "api:download": "wget http://localhost:3000/api-yaml -O ./src/shared/api/schema.yaml",
+    "api:download": "wget http://51.250.29.165/api/v1/api-yaml -O ./src/shared/api/schema.yaml",
     "api:generate": "orval"
   },
   "dependencies": {

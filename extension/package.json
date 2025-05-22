@@ -8,7 +8,7 @@
     "build": "tsc && vite build --watch",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "api:download": "wget http://localhost:3000/api-yaml -O ./src/shared/api/schema.yaml",
+    "api:download": "wget http://51.250.29.165/api/v1/api-yaml -O ./src/shared/api/schema.yaml",
     "api:generate": "orval"
   },
   "dependencies": {
