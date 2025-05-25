@@ -49,7 +49,7 @@ export function HomePage() {
   
     setTimeout(() => {
       chrome.runtime.sendMessage({ type: "RELOAD_TAB" });
-    }, 4000)
+    }, 5000)
   };
 
   return (
