@@ -24,7 +24,7 @@ export function SignInForm() {
         Sign In
       </UiButton>
       <UiLink className="text-center" href={ROUTES.SIGN_UP}>
-        Sign Un
+        Sign Up
       </UiLink>
       {errorMessage && <div className="text-rose-500">{errorMessage}</div>}
     </form>
